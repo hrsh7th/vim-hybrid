@@ -264,9 +264,9 @@ exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_none        .s:fmt_undr
 exe "hi! SpellRare"     .s:fg_purple      .s:bg_none        .s:fmt_undr
 exe "hi! StatusLine"    .s:fg_comment     .s:bg_background  .s:fmt_revr
 exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
-exe "hi! TabLine"       .s:fg_window      .s:bg_yellow      .s:fmt_revr
-exe "hi! TabLineSel"    .s:fg_comment     .s:bg_yellow      .s:fmt_revr
-exe "hi! TabLineFill"   .s:fg_background  .s:bg_yellow      .s:fmt_revr
+exe "hi! TabLine"       .s:fg_yellow      .s:bg_selection   .s:fmt_none
+exe "hi! TabLineSel"    .s:fg_yellow      .s:bg_comment     .s:fmt_bold
+exe "hi! TabLineFill"   .s:fg_yellow      .s:bg_background  .s:fmt_none
 exe "hi! Title"         .s:fg_yellow      .s:bg_none        .s:fmt_none
 exe "hi! Visual"        .s:fg_none        .s:bg_selection   .s:fmt_none
 "		VisualNos"
